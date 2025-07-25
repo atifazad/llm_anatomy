@@ -25,7 +25,7 @@ This project allows you to download any Hugging Face model and count its paramet
 Run the script to count parameters for a given Hugging Face model:
 
 ```bash
-python count_parameters.py --model_name gpt2
+python llm_inspect.py --model_name gpt2
 ```
 
 Replace `gpt2` with any model name from the [Hugging Face Model Hub](https://huggingface.co/models). 
